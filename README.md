@@ -23,31 +23,9 @@ This TensorFlow-based neural network model predicts potential customer churn for
 ## Evaluation
 
 - The model's performance is evaluated using the test set.
-- A confusion matrix and accuracy score are computed to assess its prediction capability.
-
-## Requirements
-
-- numpy
-- matplotlib
-- pandas
-- tensorflow
-- scikit-learn
-
-## Usage
-
-1. Import the necessary libraries and the dataset.
-2. Encode the categorical variables.
-3. Split the dataset into training and test sets.
-4. Apply feature scaling.
-5. Initialize the ANN, add layers, and compile the model.
-6. Train the model on the training set.
-7. Predict test set results and evaluate the model.
+- A confusion matrix and accuracy score of **86%** are computed to assess its prediction capability.
 
 ## Dataset Variables
 
 - Independent Variables: CreditScore, Geography, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary.
 - Dependent Variable: Customer churn indicator (binary).
-
-## Note
-
-The dataset `Churn_Modelling.csv` must be present in the working directory for the code to run successfully. Ensure all prerequisite libraries are installed.
